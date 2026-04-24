@@ -1,73 +1,212 @@
-# Privacy Policy for MyOwnBank Terminal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MyOwnBank Terminal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-**Last updated: April 24, 2026**
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-## Overview
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
 
-MyOwnBank Terminal ("the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our application.
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
 
-## Information We Collect
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
 
-### Data Stored Locally
-- Terminal ID (generated automatically)
-- Transaction history (stored in Firebase)
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
 
-### Data Transmitted
-- Payment transaction data (amount, status, method)
-- Terminal configuration settings
-- Transaction timestamps
+        .content {
+            padding: 40px;
+        }
 
-## How We Use Your Information
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
 
-The App uses Firebase Realtime Database to:
-- Synchronize payment data with management system
-- Store transaction history
-- Enable remote terminal management
+        h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
 
-## Data Storage
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
 
-All data is stored in Firebase Realtime Database and is subject to Google's privacy policies:
-https://firebase.google.com/support/privacy
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
 
-## Third-Party Services
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
 
-The App uses the following third-party services:
-- **Firebase** (Google LLC) - for real-time data synchronization
-- **ML Kit** (Google LLC) - for face detection (optional feature)
+        strong {
+            color: #333;
+        }
 
-## Data Security
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
 
-We implement appropriate security measures to protect your data:
-- Encrypted data transmission
-- Secure Firebase authentication
-- No personal identification data collected
+        a:hover {
+            text-decoration: underline;
+        }
 
-## Permissions
+        .footer {
+            background: #f5f6fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
 
-The App requires the following permissions:
-- **Camera** - for Face ID and card payment features
-- **NFC** - for contactless card payments
-- **Internet** - for Firebase synchronization
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
 
-## Children's Privacy
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 24px;
+            }
 
-The App is not intended for use by children under 13 years of age.
+            .content {
+                padding: 20px;
+            }
 
-## Changes to This Policy
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 Privacy Policy</h1>
+            <p>MyOwnBank Terminal</p>
+            <span class="badge">Last updated: April 24, 2026</span>
+        </div>
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.
+        <div class="content">
+            <h2>📋 Overview</h2>
+            <p>MyOwnBank Terminal ("the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our application.</p>
 
-## Contact Us
+            <h2>📊 Information We Collect</h2>
 
-For questions about this Privacy Policy, please contact:
-- GitHub: https://github.com/heyyaah/MyOwnBankTerminal/issues
-- Email: Create an issue on GitHub
+            <h3>Data Stored Locally</h3>
+            <ul>
+                <li>Terminal ID (generated automatically)</li>
+                <li>Transaction history (stored in Firebase)</li>
+            </ul>
 
-## Open Source
+            <h3>Data Transmitted</h3>
+            <ul>
+                <li>Payment transaction data (amount, status, method)</li>
+                <li>Terminal configuration settings</li>
+                <li>Transaction timestamps</li>
+            </ul>
 
-This app is open source. You can review the code at:
-https://github.com/heyyaah/MyOwnBankTerminal
+            <h2>🎯 How We Use Your Information</h2>
+            <p>The App uses Firebase Realtime Database to:</p>
+            <ul>
+                <li>Synchronize payment data with management system</li>
+                <li>Store transaction history</li>
+                <li>Enable remote terminal management</li>
+            </ul>
 
----
+            <h2>💾 Data Storage</h2>
+            <p>All data is stored in Firebase Realtime Database and is subject to Google's privacy policies: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
 
-**MyOwnBank Terminal © 2026**
+            <h2>🔗 Third-Party Services</h2>
+            <p>The App uses the following third-party services:</p>
+            <ul>
+                <li><strong>Firebase</strong> (Google LLC) - for real-time data synchronization</li>
+                <li><strong>ML Kit</strong> (Google LLC) - for face detection (optional feature)</li>
+            </ul>
+
+            <h2>🔐 Data Security</h2>
+            <p>We implement appropriate security measures to protect your data:</p>
+            <ul>
+                <li>Encrypted data transmission</li>
+                <li>Secure Firebase authentication</li>
+                <li>No personal identification data collected</li>
+            </ul>
+
+            <h2>📱 Permissions</h2>
+            <p>The App requires the following permissions:</p>
+            <ul>
+                <li><strong>Camera</strong> - for Face ID and card payment features</li>
+                <li><strong>NFC</strong> - for contactless card payments</li>
+                <li><strong>Internet</strong> - for Firebase synchronization</li>
+            </ul>
+
+            <h2>👶 Children's Privacy</h2>
+            <p>The App is not intended for use by children under 13 years of age.</p>
+
+            <h2>🔄 Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.</p>
+
+            <h2>📧 Contact Us</h2>
+            <p>For questions about this Privacy Policy, please contact:</p>
+            <ul>
+                <li>GitHub: <a href="https://github.com/heyyaah/MyOwnBankTerminal/issues" target="_blank">Create an issue</a></li>
+                <li>Repository: <a href="https://github.com/heyyaah/MyOwnBankTerminal" target="_blank">MyOwnBankTerminal</a></li>
+            </ul>
+
+            <h2>💻 Open Source</h2>
+            <p>This app is open source. You can review the code at: <a href="https://github.com/heyyaah/MyOwnBankTerminal" target="_blank">https://github.com/heyyaah/MyOwnBankTerminal</a></p>
+        </div>
+
+        <div class="footer">
+            <p><strong>MyOwnBank Terminal © 2026</strong></p>
+            <p>Open Source • MIT License</p>
+        </div>
+    </div>
+</body>
+</html>
