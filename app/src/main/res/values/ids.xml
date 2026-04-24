@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="priceTop" type="id" />
+    <item name="statusText" type="id" />
+    <item name="faceIcon" type="id" />
+    <item name="cancelButton" type="id" />
+    <item name="faceButton" type="id" />
+    <item name="successFlash" type="id" />
+    <item name="successAmount" type="id" />
+</resources>
