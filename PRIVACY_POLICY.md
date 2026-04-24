@@ -51,7 +51,7 @@ The App requires the following permissions:
 
 ## Children's Privacy
 
-The App is not intended for use by children under 13 years of age.
+The App is not intended for use by children under 12 years of age.
 
 ## Changes to This Policy
 
